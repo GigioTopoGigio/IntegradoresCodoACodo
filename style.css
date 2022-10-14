@@ -1,0 +1,74 @@
+.navbar-brand__img {
+    width: 100px;
+}
+@media (min-width: 992px) {
+    .caption-center {
+    top: 40%;
+    right: 3%;
+    left: 47%;
+    margin-bottom: 10%;
+    font-size: 2.5vh;
+    text-shadow:   0 0 0.2em #000;
+    }
+    .caption-center a {
+        font-weight: bold;
+        font-size: 2.5vh;
+    }
+}
+@media (max-width: 991px) {
+    .caption-center {
+    top: 33%;
+    right: 5%;
+    left: 33%;
+    }
+}
+@media (max-width: 855px) {
+    .caption-center {
+    top: 21%;
+    left: 23%;
+    }
+}
+@media (max-width: 735px) {
+    .caption-center {
+    top: 15%;
+    right: 2%;
+    left: 10%;
+    margin-bottom: 5%;
+    }
+}
+@media (max-width: 645px) {
+    .caption-center {
+    top: 2%;
+    left: 2%;
+    margin-bottom: 2%;
+    }
+}
+@media (max-width: 576px) {
+    .caption-center {
+    padding: 0%;
+    font-size: 2.0vh;
+    }
+    .caption-center a {
+        font-size: 2.0vh;
+    }
+}
+@media (max-width: 440px) {
+    .caption-center {
+    font-size: 1.4vh;
+    }
+    .caption-center a {
+        font-size: 1.4vh;
+    }
+}
+.ignite {
+    border-bottom: 1px dotted #000
+}
+.verdemanzana {
+    background-color: rgb(150, 201, 62);
+    font-size: 1.2rem;
+}
+footer {
+    background-color: rgb(46, 46, 117);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
